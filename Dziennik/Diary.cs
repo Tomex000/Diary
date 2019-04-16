@@ -8,8 +8,12 @@ namespace Dziennik
 {
     class Diary
     {
+        public Diary()
+        {
+            ratings = new List<float>();
+        }
         //zmienne
-        List<float> ratings = new List<float>();
+        List<float> ratings;// = new List<float>();
 
         //Metody
         public void AddRating(float rating)
