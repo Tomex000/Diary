@@ -11,7 +11,7 @@ namespace Dziennik
         static void Main(string[] args)
         {
             Diary diary = new Diary();
-
+            Console.ReadKey();
             diary.AddRating(5);
             diary.AddRating(8.5f);
             diary.AddRating(4.7f);
