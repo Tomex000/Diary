@@ -15,6 +15,7 @@ namespace Klasa_Zmienna
         //zmienne
         List<float> ratings;// = new List<float>();
 
+        public string Name;
         //Metody
         public void AddRating(float rating)
         {

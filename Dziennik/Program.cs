@@ -20,12 +20,13 @@ namespace Dziennik
             float max = diary.GetMax();
             float min = diary.GetMin();
 
-            for (;  ; )
+            
+            for (; ; )
             {
                 Console.WriteLine("Podaj liczbe");
 
                 float rating = float.Parse(Console.ReadLine());
-               
+
                 //warunek wyjscia z petli
                 if (rating == 11)
                 {
